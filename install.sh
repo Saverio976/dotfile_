@@ -24,3 +24,7 @@ source "$SRC_zsh/.config/zsh/.zshenv"
 SRC_nvim="$XDG_CONFIG_HOME/nvim"
 git clone git@github.com:Saverio976/dotfile_nvim.git "$SRC_nvim" \
     || git clone https://github.com/Saverio976/dotfile_nvim.git "$SRC_nvim"
+
+SRC_i3="$XDG_CONFIG_HOME/i3"
+git clone git@github.com:Saverio976/dotfile_i3.git "$SRC_i3" \
+    || git clone https://github.com/Saverio976/dotfile_i3.git "$SRC_i3"
