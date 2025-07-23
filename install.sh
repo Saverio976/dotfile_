@@ -22,5 +22,5 @@ zsh "$SRC_zsh/install.sh" "$SRC_zsh" "$USER_GROUP"
 source "$SRC_zsh/.config/zsh/.zshenv"
 
 SRC_nvim="$XDG_CONFIG_HOME/nvim"
-git clone git@github.com:Saverio976/dotfile_zsh.git "$SRC_nvim" \
-    || git clone https://github.com/Saverio976/dotfile_zsh.git "$SRC_nvim"
+git clone git@github.com:Saverio976/dotfile_nvim.git "$SRC_nvim" \
+    || git clone https://github.com/Saverio976/dotfile_nvim.git "$SRC_nvim"
